@@ -1,4 +1,0 @@
-INDEX VERSION 1.134+C:\Users\Willian\Desktop\Willian\Java\Projetos\.metadata\.plugins\org.eclipse.jdt.core
-470491116.index
-2255104967.index
-1865797976.index
