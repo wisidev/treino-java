@@ -4,5 +4,5 @@
 /**
  * 
  */
-module Exercicio2 {
+module ExerciciosJava {
 }
