@@ -18,7 +18,7 @@ public class Exercicio001 {
 		rect.width = sc.nextDouble();
 		rect.height = sc.nextDouble();
 		
-		System.out.println(rect.toString());
+		System.out.println(rect);
 		
 		sc.close();
 	}

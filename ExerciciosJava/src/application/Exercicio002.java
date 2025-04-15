@@ -13,23 +13,23 @@ public class Exercicio002 {
 		Scanner sc = new Scanner(System.in);
 		
 		Employee002 emp = new Employee002();
-		System.out.println("Name:");
+		
+		System.out.print("Name:");
 		emp.name = sc.nextLine();
-		System.out.println("Gross Salary:");
+		System.out.print("Gross Salary:");
 		emp.grossSalary = sc.nextDouble();
-		System.out.println("Tax:");
+		System.out.print("Tax:");
 		emp.tax = sc.nextDouble();
 		
-		System.out.println();
-		System.out.printf("Employee: %s, $ %.2f%n", emp.name, emp.netSalary());
-		
-		System.out.println();
-		System.out.println("Which percentage to increase salary?");
-		emp.percentage = sc.nextDouble();
-		
-		System.out.println();
-		System.out.printf("Updated data: %s, $ %.2f%n", emp.name, emp.increaseSalary(emp.percentage));
-		
+		System.out.println(); 
+		System.out.println("Employee: " + emp); 
+		System.out.println(); 
+		System.out.print("Which percentage to increase salary? "); 
+	    double percentage = sc.nextDouble(); 
+		emp.increaseSalary(percentage); 
+		   
+		System.out.println(); 
+		System.out.println("Updated data: " + emp); 
 		sc.close();
 	}
 }
